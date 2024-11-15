@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TEMPLE BY REGION</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 style="text-align: center">TEMPLE BY REGION</h1>
+    <p style="text-align: center">ค้นหาวัดตามภูมิภาค</p>
+
+    <div class="button-container">
+      <button onclick="changeColumns(2)">2 Columns</button>
+      <button onclick="changeColumns(3)">3 Columns</button>
+      <button onclick="changeColumns(4)">4 Columns</button>
+    </div>
+
+    <div class="templeall" id="temple">
+      <div
+        class="wat"
+        style="
+          background-color: coral;
+          background-image: url('N.jpg');
+          background-size: cover;
+          background-position: center;
+        "
+      >
+        ภาคเหนือ
+      </div>
+      <div
+        class="wat"
+        style="
+          background-color: lightblue;
+          background-image: url('M.jpg');
+          background-size: cover;
+          background-position: center;
+        "
+      >
+        ภาคกลาง
+      </div>
+      <div
+        class="wat"
+        style="
+          background-color: khaki;
+          background-image: url('NE.jpg');
+          background-size: cover;
+          background-position: center;
+        "
+      >
+        ภาคตะวันออกเฉียงเหนือ
+      </div>
+      <div
+        class="wat"
+        style="
+          background-color: pink;
+          background-image: url('W.jpg');
+          background-size: cover;
+          background-position: center;
+        "
+      >
+        ภาคตะวันตก
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
